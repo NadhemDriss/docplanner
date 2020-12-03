@@ -1,0 +1,550 @@
+.section_inner {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .main-menu{
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-around;
+  
+  }
+  .dropdown-content{
+display: none;
+position: absolute;
+  }
+
+.dropdown:hover .dropdown-content{
+display: block;
+justify-content: center;
+padding-right: 150px;
+  }
+.lead__logo{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+
+  }
+.logo1{
+    display: flex;
+    justify-content: center;
+
+}
+.making{
+    display: flex;
+    justify-content: center;
+    color:darkcyan;
+}
+.cont1 {
+    Font-style: Roboto, Arial, sans-serif;
+
+Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 28px;
+
+color: rgb(116, 116, 116);
+}
+.cont2{
+    Font-style: Roboto, Arial, sans-serif;
+
+Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 28px;
+
+color: rgb(116, 116, 116);
+}
+.con{
+    display: flex;  
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.con1{
+    display: flex;  
+    justify-content: center;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.services{
+    display: flex; 
+    justify-content: space-between; 
+}
+.patients{
+background-color: darkcyan;
+border: 1px solid red;
+border-radius: 15px;
+display: flex; 
+flex-direction: column;
+width: 25%; 
+height: 400px; 
+
+}
+.doctors{
+background-color: dodgerblue ;
+border: 1px solid red;
+color: white;
+border-radius: 15px;
+display: flex; 
+flex-direction: column;
+width: 25%;
+height: 400px;
+}
+.clinics{
+background-color: black;
+border: 1px solid red;
+color: white;
+border-radius: 15px;
+display: flex; 
+flex-direction: column;
+width: 25%;
+height: 400px;
+
+
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.pa{
+margin-left: 20px;
+margin-top: 10px;
+font-style: "Work Sans", Arial, sans-serif;
+
+Font-size: 24px;
+
+Font-weight: 300;
+
+Line-height: 28.8px;
+
+color: rgb(255, 255, 255);
+}
+.title1{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-style: "Work Sans", Arial, sans-serif;
+
+Font-size: 26px;
+
+Font-weight: 400;
+
+Line-height: 23.8px;
+
+color: rgb(255, 255, 255);
+}
+.icone{
+margin-top: 20px;
+margin-left: 20px;
+
+}
+.select-patient{
+
+    width: 100%;
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+    height: 40px;
+    color: inherit;
+    margin-left: 20px;
+    font-style: Roboto, Arial, sans-serif;
+
+Font-size: 19.2px;
+
+Font-weight: 400;
+
+Line-height: 24.96px;
+
+  color: rgb(255, 255, 255);
+}
+.select-doctor{
+
+    width: 100%;
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+    height: 40px;
+    color: inherit;
+    margin-left: 20px;
+    Font-size: 19.2px;
+
+Font-weight: 400;
+
+Line-height: 24.96px;
+
+  color: rgb(255, 255, 255);
+}
+.select-clinics{
+
+    width: 100%;
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+    height: 40px;
+    color: inherit;
+    margin-left: 20px;
+    Font-size: 19.2px;
+ margin-bottom: 10px;
+Font-weight: 400;
+
+Line-height: 24.96px;
+
+  color: rgb(255, 255, 255);
+
+}
+.con2{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 55px;
+    font-style: "Work Sans", Arial, sans-serif;
+
+Font-size: 26px;
+
+Font-weight: 300;
+
+Line-height: 33.8px;
+ color: rgb(0, 179, 155);
+}
+.brands__logos li{
+    
+    width: 60px;
+    padding: 5px;
+}
+.brands__logos{
+    display: flex;
+}
+.li1{
+    margin-left: 150px;
+    font-style: Roboto, Arial, sans-serif;
+
+Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 20.8px;
+
+color: rgb(61, 131, 223);
+list-style: none;
+}
+.li2{
+    margin-left: 210px;
+    Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 20.8px;
+
+color: rgb(61, 131, 223);
+list-style: none;
+}
+.li3{
+    margin-left: 270px;
+    Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 20.8px;
+
+color: rgb(61, 131, 223);
+list-style: none;
+}
+.head{
+    Font-style: "Work Sans", Arial, sans-serif;
+
+Font-size: 34px;
+
+Font-weight: 300;
+
+Line-height: 44.2px;
+
+color: rgb(0, 179, 155);
+margin-left: 150px;
+padding-top: 50px;
+
+}
+.corp1{
+    Font-style: Roboto, Arial, sans-serif;
+
+Font-size: 14px;
+
+Font-weight: 400;
+
+Line-height: 24px;
+
+color: rgb(116, 116, 116);
+
+}
+.stats__item{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 225, 255);
+    display: flex; 
+    flex-direction: column;
+    width: 21%; 
+    border-radius: 15px;
+    margin-left: 630px;  
+    margin-bottom: 600px;
+}
+.con3{
+   background-color: rgb(155, 255, 250);
+   height: 570px;
+  
+}
+.drap{
+    text-align: center;
+}
+.num1{
+margin: 10px;
+margin-left: 10px;
+
+}
+.poland{
+    margin-left: 10px;
+    text-align: center;
+    font-style: Roboto, Arial, sans-serif;
+
+Font-size: 13px;
+
+Font-weight: 400;
+
+Line-height: 16.9px;
+
+color: rgb(116, 116, 116);
+}
+
+.leader{
+    font-style: "Work Sans", Arial, sans-serif;
+
+Font-size: 24px;
+
+Font-weight: 300;
+
+Line-height: 31.2px;
+
+color: rgb(0, 179, 155);
+text-align: center;
+}
+.stats__item1{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 225, 255);
+    display: flex; 
+    flex-direction: column;
+    width: 21%; 
+    border-radius: 15px;
+    margin-left: 950px;
+    margin-bottom: 600px;  
+    
+}
+.items{
+    display: flex; 
+}
+.header{
+    Font-style: "Work Sans", Arial, sans-serif;
+
+    Font-size: 34px;
+    
+    Font-weight: 300;
+    
+    Line-height: 44.2px;
+    
+    color: rgb(0, 179, 155);
+    margin-left: 150px;
+    padding-top: 50px;
+}
+.num1{ background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 225, 255);
+    display: flex; 
+    flex-direction: column;
+    width: 40%; 
+    border-radius: 15px;
+    margin-top:20px;
+            padding: 15px;
+            margin-right: 70px;
+    }
+
+.num2{ background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 225, 255);
+        display: flex; 
+        flex-direction: column;
+        width: 40%; 
+        border-radius: 15px;
+        margin-top:15px;
+        padding: 15px;
+        margin-right: 180px;
+   
+        }
+
+        .num3{ background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(0, 225, 255);
+            display: flex; 
+            flex-direction: column;
+            width: 40%; 
+            border-radius: 15px;
+            margin-top:20px;
+            padding: 15px;
+            margin-right: 70px;
+            
+
+             
+            }
+            .num4{ background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(0, 225, 255);
+                display: flex; 
+                flex-direction: column;
+                width: 40%;  
+                border-radius: 15px;
+                margin-top:15px;
+                padding: 15px;
+                margin-right: 180px;
+                
+                }
+.parcar1{
+    display: flex; 
+    
+    
+}
+.parcar2{
+display: flex; }
+.all{
+display: flex;
+justify-content: space-around;
+}
+.carr{
+    margin-left: 400px;
+    display: inline;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.imp{display: flex;
+    justify-content: center;
+    color:darkcyan;
+    Font-style: "Work Sans", Arial, sans-serif;
+
+    Font-size: 30px;
+    
+    Font-weight: 300;
+    
+    Line-height: 39px;
+    
+  color: rgb(0, 179, 155);
+margin-top: 90px;}
+
+.imp1{display: flex;
+    justify-content: center;
+    color:darkcyan;
+    Font-style: "Work Sans", Arial, sans-serif;
+
+    Font-size: 30px;
+    
+    Font-weight: 300;
+    
+    Line-height: 39px;
+    
+  color: rgb(0, 179, 155);
+}
+.imp2{
+    Font-style: Roboto, Arial, sans-serif;
+
+    Font-size: 16px;
+    
+    Font-weight: 400;
+    
+    Line-height: 28px;
+    
+    color: rgb(116, 116, 116);
+    display: flex;
+    justify-content: center;
+}
+.office__desc{
+    margin-left: 120px;
+}
+.favoritestyled{
+    margin-left: 20px;
+}
+.troisun{
+    display: flex;
+    justify-content: center;
+    justify-content:100px;
+    margin-top: 50px;
+}
+.troisdeux{
+    display: flex;
+    justify-content: center;
+    justify-content:100px;
+    margin-top: 50px;
+}
+.troistrois{
+    display: flex;
+margin-left: 200px;
+    margin-top: 50px;
+}
+img{
+    border-radius: 15px;
+}
+.sound{
+    font-style: "Work Sans", Arial, sans-serif;
+
+Font-size: 30px;
+
+Font-weight: 300;
+
+Line-height: 39px;
+
+color: rgb(51, 51, 51);
+display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.styled{
+    margin-left: 700px;
+    background-color:rgb(21, 58, 138);
+ 
+color:#CCC;
+margin-bottom: 100px;
+}
+.foot{
+    Font-style: Roboto, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+color: rgb(171, 171, 171);
+display: flex;
+    justify-content: center;
+}
+.foot3{
+    Font-style: Roboto, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+color: rgb(171, 171, 171);
+display: flex;
+    justify-content: center;
+}
+.foot2{
+    Font-style: Roboto, Arial, sans-serif;
+
+Font-size: 12px;
+
+Font-weight: 400;
+
+Line-height: 15.6px;
+
+color: rgb(171, 171, 171);
+display: flex;
+    justify-content: center;
+}
